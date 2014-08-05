@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+
+.wrapper{
+	width:640px;
+	margin:50px auto;
+}
+.mine-body{
+	margin:0 auto;
+}
+.mine-body tr td{
+	width: 65px;
+	height: 65px;
+	max-width: 100px;
+	max-height: 100px;
+	background: #AAAAAA;
+	border: 1px solid black;
+	cursor: pointer;
+	font-size: 2.2em;
+	line-height: 1.8;
+	text-align: center;
+	transition:0.2s all ease;
+	-ms-transition:0.2s all ease;
+	-moz-transition:0.2s all ease;
+	-webkit-transition:0.2s all ease;
+}
+
+.mine{
+	background:url("../images/Bomb.png") no-repeat !important;
+	background-size:60px 60px !important;
+}
+
+.guess{
+	background:url("../images/try.png") #AAAAAA no-repeat !important;
+	background-size:60px 60px !important;
+}
+
+.empty{
+	background:#EDEDED !important;
+}
+
+#reset{
+	margin: 50px 283px;
+}
+
+.head{
+	width: 85%;
+	height: 68px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.head span {
+	font-size: 1.8em;
+	line-height: 2.2;
+	color: red;
+	padding-right: 25px;
+}
